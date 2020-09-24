@@ -1,0 +1,42 @@
+Kubernetes
+
+Components:
+ - API
+    front end of the cluster
+ - Etcd 
+    back-end database for service discovery that stores the cluster state and its configuration
+- Scheduler
+    responsible for distributing work or containers across the worker-nodes, looks for newly created containers and assigns them to worker nodes.
+- Controllers
+    brain of the orchestration. responsible for noticing and reponding when a nodes, containers or endpoints goes down. 
+- Kubelet
+      Agent that runs on each node in the Cluster. makes sures that containers are running on nodes
+- runtime env
+      underline software that runs containers (docker)
+
+
+
+
+      numbers=[]
+      strings=[]
+      names=["flavio", "viana", "rocha"]
+
+      #number starts here
+      numbers.append(1)
+      numbers.append(2)
+      numbers.append(3)
+
+      #strings starts here
+      strings.append("hello") 
+      strings.append("world")
+
+      #names starts here
+      second_name=names[1]
+
+      #print output
+      print(numbers)
+      print(strings)
+      print(second_name)
+    
+ 
+
